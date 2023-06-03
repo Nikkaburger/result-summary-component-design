@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+    html,body {
+        display: flex;
+        align-items: center;
+        background-color: hsl(0, 13%, 95%);
+        justify-content: center;
+        font-size: 18px;
+        max-height: 900px;
+        max-width: 100%;
+        margin: 0px;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+
+    .container {
+        display: flex;
+        background-color: hsl(0, 0%, 100%);
+        flex-direction: row;
+        justify-content:center;
+        margin: 100px;
+        align-items: center;
+        width: fit-content;
+        height: 450px;
+        border-radius: 25px;
+    }
+
+    .container1 {
+        background: linear-gradient(
+            180deg,
+            hsl(252, 100%, 67%),
+            hsl(241, 81%, 54%)
+        ) ;
+        color: hsl(0, 5%, 96%);
+        width: 375px;
+        height: 450px;
+        margin: 0px;
+        border-radius: 25px;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .msg {
+        color: hsl(0, 0%, 100%);
+        font-weight: 500;
+        font-size: 26px;
+        padding-top: 20px;
+    }
+
+    h1 {
+        color: #dfdfdf;
+        font-weight: 500;
+        padding: 10px;
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .circle {
+        margin-left: 30%;
+        margin-bottom: 20px;
+        align-items: center;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: linear-gradient(
+            180deg,
+            hsla(256, 72%, 46%, 1),
+            hsla(241, 72%, 46%, 0)
+        ) ;
+      }
+      
+      .top-text,
+      .bottom-text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+      }
+      
+      .top-text {
+        top: 15%;
+        font-size: 65px;
+        font-weight: 800;
+      }
+      
+      .bottom-text {
+        padding-top: 5px;
+        bottom: 15%;
+        font-size: 16px;
+        font-weight: 500;
+        color: #c0c0c0;
+      }
+
+    .p  {
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .container2 {
+        background-color: hsl(0, 0%, 100%);
+        width: 375px;
+        height: 450px;
+        font-size: 16px;
+        align-items: center;
+        margin: 0px;
+        border-radius: 0px 25px 25px 0px;
+    }
+
+    h2 {
+        color: #d6d6d6;
+        font-weight: 500;
+        padding: 0px 20px 15px 20px;
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h3 {
+        color: black;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    h6 {
+        color: #c0c0c0;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .grey {
+        color: #c0c0c0;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .left-align {
+        font-weight: 500;
+        float: left;
+        padding-right: 10px;
+        margin: 10px 0 10px 0;
+    }
+
+    .right-align {
+        font-weight: 700;
+        float: right;
+        color: black;
+        margin: 10px 0 10px 0;
+    }
+
+    .left-image {
+        float: left;
+        margin: 10px 0 10px 0;
+    }
+
+    .box1 {
+        background-color: hsl(0, 100%, 98%);
+        color: hsl(0, 100%, 67%);
+        border-radius: 12px;
+        border-style: solid;
+        font-size: 16px;
+        border-width: 0px;
+        margin: 20px 30px 20px 30px;
+        padding: 10px 15px 10px 15px;
+        text-align: justify;
+        height: 36px;
+    }
+
+    .box2 {
+        background-color: hsl(39, 100%, 98%);
+        color: hsl(39, 100%, 56%);
+        border-radius: 12px;
+        border-style: solid;
+        border-width: 0px;
+        margin: 20px 30px 20px 30px;
+        padding: 10px 15px 10px 15px;
+        text-align: justify;
+        height: 36px;
+    }
+
+    .box3 {
+        background-color: hsl(166, 100%, 98%);
+        color: hsl(166, 100%, 37%);
+        border-radius: 12px;
+        border-style: solid;
+        border-width: 0px;
+        margin: 20px 30px 20px 30px;
+        padding: 10px 15px 10px 15px;
+        text-align: justify;
+        height: 36px;
+    }
+
+    .box4 {
+        background-color: hsl(234, 100%, 98%);
+        color: hsl(234, 85%, 45%);
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #fff6f5;
+        border-width: 0px;
+        margin: 20px 30px 20px 30px;
+        padding: 10px 15px 10px 15px;
+        padding-top: 10px;
+        text-align: justify;
+        height: 36px;
+    }
+
+    .button {
+        background-color: hsl(224, 30%, 27%);
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        font-weight: 700;
+        border: 0px;
+        width: 315px;
+        height: 52px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        margin: 0px 30px 30px 30px;
+        border-radius: 28px;
+    }
+
+/*
+mobile design
+*/
+
+@media (max-width: 375px){
+    body {
+        background-color: hsl(0, 0%, 100%);
+    }
+    .container {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container1 {
+        padding-top: 20px;
+        flex-direction: column;
+        background: linear-gradient(
+            180deg,
+            hsl(252, 100%, 67%),
+            hsl(241, 81%, 54%)
+        ) ;
+        color: hsl(0, 5%, 96%);
+        max-width: 375px;
+        height: 40%;
+        border-radius: 0px 0px 25px 25px;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+
+    .container2 {
+        background-color: hsl(0, 0%, 100%);
+        max-width: 375px;
+        max-height: 100%;
+        font-size: 16px;
+    }
+}
+
+    
